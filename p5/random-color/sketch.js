@@ -5,7 +5,8 @@ function setup() {
 }
 
 function draw() {
-  // put drawing code here/
+  
+  // Draw four squares of random colors
   fill(getRandomColor());
   rect(0, 0, 50, 50);
   fill(getRandomColor());

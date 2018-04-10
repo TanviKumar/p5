@@ -36,3 +36,39 @@ p5.prototype.getRGB = function(c) {
 	return colorRGB;
 	
 }
+
+p5.Color.prototype.addScalar = function(r, g, b, a) {
+	
+}
+
+p5.Color.prototype.multiplyScalar = function(a1, a2, a3) {
+
+}
+
+p5.prototype.addColors = function(c1, c2) {
+	var r1 = red(c1);
+	var r2 = red(c2);
+	var g1 = green(c1);
+	var g2 = green(c2);
+	var b1 = blue(c1);
+	var b2 = blue(c2);
+}
+
+p5.prototype.multiplyColors = function(c1, c2) {
+	var r1 = red(c1);
+	var r2 = red(c2);
+	var g1 = green(c1);
+	var g2 = green(c2);
+	var b1 = blue(c1);
+	var b2 = blue(c2);
+}
+
+p5.prototype.getHues = function(c1) {
+
+}
+
+p5.prototype.getNColors = function(c1, c2, n) {
+
+}
+
+p5.prototype.
